@@ -1,1 +1,130 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Elements and Forms</title>
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS (if needed) -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to week 2 Advanced HTML5 Elements and Forms Page at PLP</h1>
+    </header>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Ordered List with Roman Numerals</h2>
+        <ol type="I">
+            <li>Introduction to HTML5</li>
+            <li>Understanding Forms</li>
+            <li>Working with Tables</li>
+            <li>Implementing Multimedia</li>
+            <li>Advanced Input Types</li>
+        </ol>
+    </section>
+
+    <!-- External Image from Pexels -->
+    <section>
+        <h2>Beautiful Scenery from Pexels</h2>
+        <img src="https://www.pexels.com/photo/beautiful-landscape-1234567/" alt="Beautiful Scenery" width="600">
+    </section>
+
+    <!-- Table with Contacts -->
+    <section>
+        <h2>Contact List</h2>
+        <table border="1" cellpadding="10">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>123 Main St, Lagos</td>
+                    <td>+234 8012345678</td>
+                    <td>johndoe@example.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>456 Elm St, Abuja</td>
+                    <td>+234 8023456789</td>
+                    <td>janesmith@example.com</td>
+                </tr>
+                <tr>
+                    <td>Mike Johnson</td>
+                    <td>789 Oak St, Kano</td>
+                    <td>+234 8034567890</td>
+                    <td>mikejohnson@example.com</td>
+                </tr>
+                <tr>
+                    <td>Sarah Williams</td>
+                    <td>101 Pine St, Port Harcourt</td>
+                    <td>+234 8045678901</td>
+                    <td>sarahw@example.com</td>
+                </tr>
+                <tr>
+                    <td>Bienvenu Gbeti</td>
+                    <td>Agbara lagos , Nigeria </td>
+                    <td>+234 9136710349</td>
+                    <td>olawalesossapeter@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required minlength="6">
+            <br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+            <br><br>
+
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select your country</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Ghana">Ghana</option>
+                <option value="Kenya">Kenya</option>
+                <option value="South Africa">South Africa</option>
+            </select>
+            <br><br>
+
+            <label>Interests:</label>
+            <input type="checkbox" id="coding" name="interests" value="coding">
+            <label for="coding">Coding</label>
+            <input type="checkbox" id="music" name="interests" value="music">
+            <label for="music">Music</label>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Sports</label>
+            <br><br>
+
+            <button type="submit">Register</button>
+        </form>
+    </section>
+</body>
+</html>
